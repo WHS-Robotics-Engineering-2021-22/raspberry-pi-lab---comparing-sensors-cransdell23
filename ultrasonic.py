@@ -13,7 +13,7 @@ try:
 
       GPIO.output(PIN_TRIGGER, GPIO.LOW)
 
-      print "Waiting for sensor to settle"
+      print ("Waiting for sensor to settle")
 
       time.sleep(2)
 
